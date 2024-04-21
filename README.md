@@ -35,7 +35,7 @@ The [data](data/) folder contains all the data you need to make this code run:
 
 ### `utils`
 The [utils](utils/) folder contains support functions:
-- `fcn_optimalControlContinuous.m` - this function (from Rick Betzel, lightly edited by A.Luppi) computes network control energy between a start and target state
+- `fcn_optimalControlContinuous.m` - this function (from Shi Gu's [GitHub repo](https://github.com/gushiapi/Dynamic-Trajectory.git), lightly edited by A.Luppi) computes network control energy between a start and target state
 - `fcn_match_length_degree_distribution.m` - function from Rick Betzel to generate geometry-preserving nulls, from a network and matrix of Euclidean distances
 - `fcn_randmio_und.m` - this is the [Brain Connectivity Toolbox](https://sites.google.com/site/bctnet) function to generate degree-preserving (Maslov-Sneppen) rewired nulls
 - `fcn_quick_mat_plot.m` - plot a matrix as heatmap with optional labels for rows and/or columns
