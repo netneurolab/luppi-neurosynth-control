@@ -4,8 +4,8 @@ function [ x, u, energy ] = fcn_optimalControlContinuous( A, B, rho, x0, xT, T )
 % min_u \int_0^T ||x_T-x(t)||^2+\rho ||u(t)||^2 dt
 % s.t. dx(t)/dt = A x(t) + B u(t), x(0) = x_0, x(T) = x_T
 %
-% Lightly edited by Andrea Luppi for 2024 Nature Biomedical Engineering
-% article
+% Originally from Shi Gu's GitHub repo: https://github.com/gushiapi/Dynamic-Trajectory.git
+% Lightly edited by Andrea Luppi for 2024 Nature Biomedical Engineering article
 % 
 % Parameters:
 %       A: nxn, transition matrix for the linear dynamics, n is the number
