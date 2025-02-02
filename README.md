@@ -3,7 +3,7 @@ Authors: A.I. Luppi, S.P. Singleton, J.Y. Hansen, K.W. Jamison, D. Bzdok, A. Kuc
 
 This repository provides code to illustrate the central method in Luppi et al., "Contributions of network structure, chemoarchitecture and diagnostic categories to transitions between cognitive topographies." Nature Biomedical Engineering (2024) ([published article](https://doi.org/10.1038/s41551-024-01242-2)).
 
-It was developed in MATLAB 2019a by Andrea Luppi from the the [Network Neuroscience Lab](netneurolab.github.io/) at the Montreal Neurological Institute, McGill University.
+It was developed in MATLAB 2019a by Andrea Luppi from the [Network Neuroscience Lab](netneurolab.github.io/) at the Montreal Neurological Institute, McGill University.
 
 This code relies on MATLAB code from the [Brain Connectivity Toolbox](https://sites.google.com/site/bctnet) for MATLAB by Rubinov and Sporns (2010) NeuroImage.
 For additional plotting functionality, also include in your MATLAB path the [ENIGMA Toolbox](https://github.com/MICA-MNI/ENIGMA.git) by Lariviere et al. (2021) Nature Methods.
